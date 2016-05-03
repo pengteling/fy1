@@ -6,14 +6,18 @@
     "extract-text-webpack-plugin": "^1.0.1",
     "raw-loader": "^0.5.1",
     "sass-loader": "^3.2.0",
-    "less-loader": "^2.2.3"
+    "less-loader": "^2.2.3",
+    "gulp-imagemin": "^2.4.0",
+    "imagemin-pngquant": "^5.0.0"
   },
   "dependencies": {
+    "gulp": "^3.9.1",
     "less": "^2.6.1",
     "less-loader": "^2.2.3",
+    "node-sass": "^3.6.0",
+    "normalize-scss": "^4.2.1",
     "sass-loader": "^3.2.0",
     "webpack": "^1.13.0",
-    "webpack-dev-server": "^1.14.1",
-    "node-sass": "^3.6.0"
+    "webpack-dev-server": "^1.14.1"
   }
 }

@@ -1,7 +1,12 @@
 @charset 'utf-8';
 /*  gem install compass-normalize  */
-@import "mixin","comm";
+@import "normalize","mixin","comm";
+@include normalize();
+
 body{	
 	font-family: "Tahoma","Arial","Microsoft YaHei", "SimHei", "SimSun";	
 	min-width:1200px;
+}
+.im1{
+	background:url(../images/banner.jpg);
 }
