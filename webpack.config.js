@@ -38,16 +38,17 @@ module.exports = {
                 loader: ExtractTextPlugin.extract('', 'css-loader!autoprefixer-loader?{browsers:["last 2 version", "> 1%"]}')
             }
 
-            // , {
-            //     test: /\.less$/,
-            //     //loader: "style!css!less"
-            //     loader: ExtractTextPlugin.extract('', 'css-loader!autoprefixer-loader?{browsers:["last 2 version", "> 1%"]}!less')
-            // }
+            , {
+                test: /\.less$/,
+                //loader: "style!css!less"
+                loader: ExtractTextPlugin.extract('', 'css-loader!autoprefixer-loader?{browsers:["last 2 version", "> 1%"]}!less')
+            }
 
             , {
                 test: /\.scss$/,
                 //loader: "style!css!less"
-                loader: ExtractTextPlugin.extract('', 'css-loader!autoprefixer-loader?{browsers:["last 2 version", "> 1%"]}!sass')
+                //loader: ExtractTextPlugin.extract('', 'css-loader!autoprefixer-loader?{browsers:["last 2 version", "> 1%"]}!sass')
+                loader:  ExtractTextPlugin.extract('', 'css-loader!autoprefixer-loader?{browsers:["last 2 version", "> 1%"]}!sass')
             }
 
             , {
