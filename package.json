@@ -19,5 +19,22 @@
     "sass-loader": "^3.2.0",
     "webpack": "^1.13.0",
     "webpack-dev-server": "^1.14.1"
-  }
+  },
+  "name": "fy1",
+  "version": "1.0.0",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pengteling/fy1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pengteling/fy1/issues"
+  },
+  "homepage": "https://github.com/pengteling/fy1",
+  "description": ""
 }
