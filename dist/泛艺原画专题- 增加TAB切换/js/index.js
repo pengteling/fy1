@@ -1,4 +1,4 @@
-webpackJsonp([0,1],[function(e,t,n){e.exports=n(1)},function(e,t,n){(function($,jQuery){n(3),n(4),n(8),$(function(){jQuery(".slidebox").slide({titCell:".hd ul",mainCell:".bd",effect:"leftLoop",autoPlay:"true",autoPage:"true"})})}).call(t,n(2),n(2))},function(e,t,n){var r,i;/*!
+webpackJsonp([0,1],[function(e,t,n){e.exports=n(1)},function(e,t,n){(function($,jQuery){n(3),n(4),n(8),$(function(){jQuery(".slidebox").slide({titCell:".hd ul",mainCell:".bd",effect:"leftLoop",autoPlay:"true",autoPage:"true"})}),$(function(){jQuery(".im9-body").slide({titCell:".hd div",mainCell:".bd",effect:"fade",autoPlay:"false"})})}).call(t,n(2),n(2))},function(e,t,n){var r,i;/*!
 	 * jQuery JavaScript Library v1.12.2
 	 * http://jquery.com/
 	 *
